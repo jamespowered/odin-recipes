@@ -1,1 +1,1 @@
-This is an easy introductory assignemnt from the Odin Project. It's been good for teaching me how to use the command line and use it to interact with my Github programs.
+This is an easy introductory assignment from the Odin Project. It's been good for teaching me how to use the command line and use it to interact with my Github programs.
