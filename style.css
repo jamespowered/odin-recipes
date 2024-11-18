@@ -1,36 +1,42 @@
 .container {
-    width: 50%;
-    background-color: azure;
+    width: 600px;
+    background-color: moccasin;
     align-content: center;
     margin: 10px auto;
 }
 h1 {
     display: block;
-    color: #525e82;
+    color: gold;
     background-color: red;
+    border-radius: 10px;
+    border: brown 2px dotted;
     text-align: center;
     width: 50%;
     height: 50px;
     align-content: center;
     margin: 10px auto;
 }
-li {
-    display: inline-block;
+.recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.recipechild {
+    display: flex;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
-    width: 40%;
-    height: 250px;
-    background-color: rgb(247, 209, 139);
-    margin: 5px 5px;
-    align-content: center;
     text-align: center;
+    font-size: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 10px;
+    border: brown 2px dotted;
+    margin: 5px 5px;
+    padding: 5px;
+    align-items: center;
     justify-content: center;
-}
-li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
+    flex: initial;
 }
